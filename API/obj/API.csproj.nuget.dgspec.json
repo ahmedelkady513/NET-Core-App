@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ahmed/Desktop/DatingApp/API/API.csproj": {}
+    "E:\\NET-Core-App\\api\\API.csproj": {}
   },
   "projects": {
-    "/Users/ahmed/Desktop/DatingApp/API/API.csproj": {
+    "E:\\NET-Core-App\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ahmed/Desktop/DatingApp/API/API.csproj",
+        "projectUniqueName": "E:\\NET-Core-App\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "/Users/ahmed/Desktop/DatingApp/API/API.csproj",
-        "packagesPath": "/Users/ahmed/.nuget/packages/",
-        "outputPath": "/Users/ahmed/Desktop/DatingApp/API/obj/",
+        "projectPath": "E:\\NET-Core-App\\api\\API.csproj",
+        "packagesPath": "C:\\Users\\Ahmed\\.nuget\\packages\\",
+        "outputPath": "E:\\NET-Core-App\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ahmed/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,8 +77,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -88,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
