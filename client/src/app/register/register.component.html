@@ -3,8 +3,8 @@
   <hr>
   <div class="mb-3">
     <label style="margin-right:10px">I am a:</label>
-    <label class="form-check-label">
-      <input type="radio" class="form-check-input" value="male" formControlName="gender">Male
+    <label style="margin-right:10px" class="form-check-label">
+      <input type="radio" class="form-check-input " value="male" formControlName="gender">Male
     </label>
     <label class="form-check-label">
       <input type="radio" class="form-check-input" value="female" formControlName="gender">Female
@@ -13,7 +13,7 @@
 
   <app-text-inputs [formControl] ="$any(registerForm.controls['username'])" [label]="'Username'"></app-text-inputs>
   <app-text-inputs [formControl] ="$any(registerForm.controls['knownAs'])" [label]="'Known As'"></app-text-inputs>
-  <app-text-inputs [formControl] ="$any(registerForm.controls['dateOfBirth'])" [label]="'Date of birth'" [type]="'date'"></app-text-inputs>
+  <app-date-picker [formControl] ="$any(registerForm.controls['dateOfBirth'])" [label]="'Date of birth'" ></app-date-picker>
   <app-text-inputs [formControl] ="$any(registerForm.controls['city'])" [label]="'City'"></app-text-inputs>
   <app-text-inputs [formControl] ="$any(registerForm.controls['country'])" [label]="'Country'"></app-text-inputs>
   <app-text-inputs [formControl] ="$any(registerForm.controls['password'])" [label]="'Password'" [type]="'password'"></app-text-inputs>
